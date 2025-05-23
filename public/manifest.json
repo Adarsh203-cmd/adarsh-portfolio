@@ -1,0 +1,22 @@
+{
+  "name": "Adarsh-Portfolio",
+  "short_name": "Portfolio",
+  "description": "Personal portfolio showcasing web development projects and skills",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["portfolio", "developer", "business"],
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
