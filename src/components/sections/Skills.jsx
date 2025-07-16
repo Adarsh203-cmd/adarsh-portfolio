@@ -7,73 +7,78 @@ const Skills = () => {
   const [activeCategory, setActiveCategory] = useState('frontend');
 
   const skillCategories = {
-    frontend: {
-      title: "Frontend",
-      icon: <Globe size={20} />,
-      color: "from-blue-500 to-cyan-400",
-      bgColor: "bg-gradient-to-br from-blue-50 to-cyan-50",
-      borderColor: "border-blue-200",
-      skills: [
-        { name: "React.js", icon: "⚛️", expertise: "Advanced" },
-        { name: "JavaScript", icon: "🟨", expertise: "Advanced" },
-        { name: "HTML/CSS", icon: "🎨", expertise: "Expert" },
-        { name: "Tailwind CSS", icon: "💨", expertise: "Advanced" },
-        { name: "Responsive Design", icon: "📱", expertise: "Advanced" }
-      ]
-    },
-    backend: {
-      title: "Backend",
-      icon: <Database size={20} />,
-      color: "from-green-500 to-emerald-400",
-      bgColor: "bg-gradient-to-br from-green-50 to-emerald-50",
-      borderColor: "border-green-200",
-      skills: [
-        { name: "Django", icon: "🐍", expertise: "Advanced" },
-        { name: "REST API", icon: "🔗", expertise: "Advanced" },
-        { name: "Authentication", icon: "🔐", expertise: "Intermediate" },
-        { name: "Firebase", icon: "🔥", expertise: "Intermediate" }
-      ]
-    },
-    database: {
-      title: "Database",
-      icon: <Database size={20} />,
-      color: "from-purple-500 to-violet-400",
-      bgColor: "bg-gradient-to-br from-purple-50 to-violet-50",
-      borderColor: "border-purple-200",
-      skills: [
-        { name: "MySQL", icon: "🐬", expertise: "Advanced" },
-        { name: "PostgreSQL", icon: "🐘", expertise: "Advanced" },
-        { name: "Oracle", icon: "🔴", expertise: "Intermediate" },
-        { name: "SQL", icon: "📊", expertise: "Advanced" }
-      ]
-    },
-    languages: {
-      title: "Languages",
-      icon: <Code size={20} />,
-      color: "from-orange-500 to-red-400",
-      bgColor: "bg-gradient-to-br from-orange-50 to-red-50",
-      borderColor: "border-orange-200",
-      skills: [
-        { name: "Python", icon: "🐍", expertise: "Expert" },
-        { name: "JavaScript", icon: "💛", expertise: "Advanced" },
-        { name: "Java", icon: "☕", expertise: "Advanced" },
-        { name: "C/C++", icon: "⚡", expertise: "Intermediate" }
-      ]
-    },
-    tools: {
-      title: "Tools",
-      icon: <Wrench size={20} />,
-      color: "from-teal-500 to-cyan-400",
-      bgColor: "bg-gradient-to-br from-teal-50 to-cyan-50",
-      borderColor: "border-teal-200",
-      skills: [
-        { name: "Git & GitHub", icon: "🐙", expertise: "Advanced" },
-        { name: "VS Code", icon: "💙", expertise: "Expert" },
-        { name: "Postman", icon: "📮", expertise: "Advanced" },
-        { name: "Cohere API", icon: "🤖", expertise: "Intermediate" }
-      ]
-    }
-  };
+  frontend: {
+    title: "Frontend",
+    icon: <Globe size={20} />,
+    color: "from-blue-500 to-cyan-400",
+    bgColor: "bg-gradient-to-br from-blue-50 to-cyan-50",
+    borderColor: "border-blue-200",
+    skills: [
+      { name: "React.js", icon: "⚛️", expertise: "Advanced" },
+      { name: "JavaScript", icon: "🟨", expertise: "Advanced" },
+      { name: "HTML/CSS", icon: "🎨", expertise: "Expert" },
+      { name: "Tailwind CSS", icon: "💨", expertise: "Advanced" },
+      { name: "Responsive Design", icon: "📱", expertise: "Advanced" },
+      { name: "Socket.io Client", icon: "🔌", expertise: "Intermediate" }
+    ]
+  },
+  backend: {
+    title: "Backend",
+    icon: <Database size={20} />,
+    color: "from-green-500 to-emerald-400",
+    bgColor: "bg-gradient-to-br from-green-50 to-emerald-50",
+    borderColor: "border-green-200",
+    skills: [
+      { name: "Django", icon: "🐍", expertise: "Advanced" },
+      { name: "Node.js", icon: "🟢", expertise: "Intermediate" },
+      { name: "Express.js", icon: "🚀", expertise: "Intermediate" },
+      { name: "REST API", icon: "🔗", expertise: "Advanced" },
+      { name: "Socket.io", icon: "⚡", expertise: "Intermediate" },
+      { name: "JWT Authentication", icon: "🔐", expertise: "Intermediate" },
+      { name: "Firebase", icon: "🔥", expertise: "Intermediate" }
+    ]
+  },
+  database: {
+    title: "Database",
+    icon: <Database size={20} />,
+    color: "from-purple-500 to-violet-400",
+    bgColor: "bg-gradient-to-br from-purple-50 to-violet-50",
+    borderColor: "border-purple-200",
+    skills: [
+      { name: "MySQL", icon: "🐬", expertise: "Advanced" },
+      { name: "PostgreSQL", icon: "🐘", expertise: "Advanced" },
+      { name: "MongoDB", icon: "🍃", expertise: "Advanced" },
+      { name: "Oracle", icon: "🔴", expertise: "Intermediate" },
+      { name: "SQL", icon: "📊", expertise: "Advanced" }
+    ]
+  },
+  languages: {
+    title: "Languages",
+    icon: <Code size={20} />,
+    color: "from-orange-500 to-red-400",
+    bgColor: "bg-gradient-to-br from-orange-50 to-red-50",
+    borderColor: "border-orange-200",
+    skills: [
+      { name: "Python", icon: "🐍", expertise: "Expert" },
+      { name: "JavaScript", icon: "💛", expertise: "Advanced" },
+      { name: "Java", icon: "☕", expertise: "Advanced" },
+      { name: "C/C++", icon: "⚡", expertise: "Intermediate" }
+    ]
+  },
+  tools: {
+    title: "Tools",
+    icon: <Wrench size={20} />,
+    color: "from-teal-500 to-cyan-400",
+    bgColor: "bg-gradient-to-br from-teal-50 to-cyan-50",
+    borderColor: "border-teal-200",
+    skills: [
+      { name: "Git & GitHub", icon: "🐙", expertise: "Advanced" },
+      { name: "VS Code", icon: "💙", expertise: "Expert" },
+      { name: "Postman", icon: "📮", expertise: "Advanced" },
+      { name: "Cohere API", icon: "🤖", expertise: "Intermediate" }
+    ]
+  }
+};
 
   const getExpertiseColor = (expertise) => {
     switch (expertise) {

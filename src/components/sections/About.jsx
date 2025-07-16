@@ -56,37 +56,37 @@ const About = () => {
   ];
 
   const tabContent = {
-    story: (
-      <div className="space-y-4">
-        <p className="text-gray-700 leading-relaxed">
-          Hey, I'm <span className="font-semibold text-gray-900">Adarsh</span> — a passionate full-stack developer with a love for crafting clean, scalable, and meaningful digital experiences. My journey into tech started with curiosity and evolved into a full-blown drive to build solutions that matter.
-        </p>
-        <p className="text-gray-700 leading-relaxed">
-          I specialize in <span className="font-semibold text-blue-600">Python and Django</span> for building powerful backends, and I bring interfaces to life using <span className="font-semibold text-cyan-600">React, Tailwind CSS</span>, and modern JavaScript. I've built everything from internal business tools to smart AI-based apps — always with attention to detail and performance.
-        </p>
-      </div>
-    ),
-    passion: (
-      <div className="space-y-4">
-        <p className="text-gray-700 leading-relaxed">
-          What truly drives me is the <span className="font-semibold text-red-600">intersection of creativity and logic</span>. Every line of code I write is an opportunity to solve real problems and create experiences that users genuinely love.
-        </p>
-        <p className="text-gray-700 leading-relaxed">
-          I'm fascinated by how technology can transform ideas into reality. Whether it's optimizing database queries for better performance or creating intuitive user interfaces, I find joy in the process of continuous learning and improvement.
-        </p>
-      </div>
-    ),
-    vision: (
-      <div className="space-y-4">
-        <p className="text-gray-700 leading-relaxed">
-          When I'm not coding, you'll find me learning new tech, solving real-world problems, or helping friends turn ideas into working products. I believe in <span className="font-semibold text-purple-600">collaborative growth</span> and the power of teamwork.
-        </p>
-        <p className="text-gray-700 leading-relaxed">
-          I'm currently looking for opportunities where I can collaborate with great minds, keep growing, and make an impact through code. Let's build something amazing together!
-        </p>
-      </div>
-    )
-  };
+  story: (
+    <div className="space-y-4">
+      <p className="text-gray-700 leading-relaxed">
+        Hey, I'm <span className="font-semibold text-gray-900">Adarsh</span> — a passionate full-stack developer with expertise in building scalable, modern web applications. My journey into tech started with curiosity and evolved into a comprehensive skill set spanning both frontend and backend development.
+      </p>
+      <p className="text-gray-700 leading-relaxed">
+        I specialize in <span className="font-semibold text-blue-600">Python and Django</span> for robust backend systems, while also having strong proficiency in the <span className="font-semibold text-green-600">MERN stack (MongoDB, Express.js, React, Node.js)</span>. I bring interfaces to life using <span className="font-semibold text-cyan-600">React, Tailwind CSS</span>, and modern JavaScript, with experience in real-time applications using Socket.io.
+      </p>
+    </div>
+  ),
+  passion: (
+    <div className="space-y-4">
+      <p className="text-gray-700 leading-relaxed">
+        What truly drives me is the <span className="font-semibold text-red-600">intersection of creativity and logic</span>. Every line of code I write is an opportunity to solve real problems and create experiences that users genuinely value.
+      </p>
+      <p className="text-gray-700 leading-relaxed">
+        I'm fascinated by how technology can transform ideas into reality. Whether it's implementing real-time communication systems, optimizing database queries, or creating intuitive user interfaces, I find fulfillment in building solutions that make a difference.
+      </p>
+    </div>
+  ),
+  vision: (
+    <div className="space-y-4">
+      <p className="text-gray-700 leading-relaxed">
+        Beyond coding, I'm continuously expanding my technical horizons and exploring emerging technologies. I believe in <span className="font-semibold text-purple-600">collaborative growth</span> and the power of teamwork to create impactful solutions.
+      </p>
+      <p className="text-gray-700 leading-relaxed">
+        I'm currently seeking opportunities where I can contribute to meaningful projects, collaborate with talented teams, and continue growing as a developer. Let's build something exceptional together.
+      </p>
+    </div>
+  )
+};
 
   return (
     <section id="about" className="py-20 bg-gradient-to-br from-gray-50 via-white to-blue-50">
